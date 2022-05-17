@@ -18,8 +18,8 @@ const images = [
 const gallery = document.querySelector(".gallery");
 
 const createGalleryItem = ({url,alt}) => {
-  return `<li class="gallery-newItem">
-  <img class="gallery-image" src = ${url} alt = ${alt}>
+  return `<li class="gallery-newItem" >
+  <img class="gallery-image" style ="width: 100%" src = ${url} alt = ${alt}>
   </li>`
 }
 
